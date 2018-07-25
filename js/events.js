@@ -7,5 +7,7 @@ $(document).ready(function(){
 });
 
 function getIt(){
-  
+  $("p").click(function(){
+    alert("Hey!");
+});
 }
